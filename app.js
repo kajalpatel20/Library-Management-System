@@ -3,8 +3,8 @@ var express = require('express');
 var expressSession = require('express-session');
 var bodyParser = require('body-parser');
 var app = express();
-const PORT = process.env.PORT || 3000;
-const sequelize = require('./config/connection');
+var port = 3000;
+
 //common controllers
 var signup = require('./controllers/signup');
 var login = require('./controllers/login');
@@ -58,7 +58,6 @@ app.use('/admin', admin);
 app.use('/customer', customer);
 
 //server start
-
-sequelize.sync({ force: false }).then(() => {
-	app.listen(PORT, () => console.log('Now listening'));
-  });
+app.listen(port, ()=>{
+    console.log(`Server running on port ${port}`);
+});
