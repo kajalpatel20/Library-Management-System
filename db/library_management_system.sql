@@ -51,6 +51,7 @@ INSERT INTO `books` (`book_id`, `user_id`, `genre`, `title`, `author`, `publishe
 (7, 0, 'Mystery', 'The Mysterious Affair at Styles', 'Agatha Christie', 'Agatha Publications', 2, '4zgdhdv2dfh81v31sdgj', 669, '0000-00-00'),
 (10, 0, 'Modern Literature', 'In Search of Lost Time', 'Marcel Proust', 'NY Publishers', 8, '2j3nsd235habh3dfkj', 4215, '2018-07-11');
 
+
 -- --------------------------------------------------------
 
 --
