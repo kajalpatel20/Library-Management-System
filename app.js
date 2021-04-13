@@ -3,7 +3,7 @@ var express = require('express');
 var expressSession = require('express-session');
 var bodyParser = require('body-parser');
 var app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3010;
 const sequelize = require('./config/connection');
 //common controllers
 var signup = require('./controllers/signup');
