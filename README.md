@@ -60,7 +60,8 @@ https://obscure-atoll-40774.herokuapp.com/
 
 * The URL of the GitHub repository, with a unique name and a readme describing the project: 
 
-https://github.com/kajalpatel20/Booksology
+https://github.com/kajalpatel20/Library-Management-System
+
   ## License:
  APACHE 2.0
 
@@ -69,6 +70,6 @@ https://github.com/kajalpatel20/Booksology
 
 The repo for this project can be found here
 
-https://github.com/kajalpatel20/Booksology
+https://github.com/kajalpatel20/Library-Management-System
 
 For any questions or to report issues, email me at: kajalpatel20@gmail.com
